@@ -47,12 +47,12 @@ function AllProducts() {
                 Rs.{product?.price}/-
               </h1>
               <div className="flex justify-between items-center">
-                <button onClick={()=>addProductToCart(product.id)} className=" px-2 py-1 text-xs font-semibold mx-2 text-gray-900 uppercase transition-colors duration-300 transform bg-blue-200 rounded hover:bg-blue-500 focus:bg-gray-400 focus:outline-none">
+                <button onClick={()=>addProductToCart(product.id)} className=" px-2 py-1 text-xs font-semibold mx-2 text-gray-900 uppercase transition-colors duration-300 transform  rounded hover:bg-blue-100 hover:font-bold	 focus:bg-gray-400 focus:outline-none">
                   Add to cart
                 </button>
                 <Link
                   to={`${product.id}`}
-                  className="bg-violet-200 px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none"
+                  className="px-2 py-1 text-xs font-semibold text-gray-900 uppercase transition-colors duration-300 transform bg-white rounded hover:bg-gray-200 focus:bg-gray-400 focus:outline-none"
                 >
                   Details
                 </Link>
