@@ -12,10 +12,16 @@ function Navbar() {
     >
       <div class="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
         <div class="flex items-center justify-between">
+        
           <Link
             to="/"
             class="text-2xl font-bold text-gray-800 transition-colors duration-300 transform dark:text-white lg:text-2xl hover:text-gray-700 dark:hover:text-gray-300"
           >
+            <div className="text-blue-600 p-3 text-center inline-flex items-center justify-center w-10 h-10 mr-2 shadow-lg rounded-full bg-blue-300">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+</svg>
+                  </div>
             RandoStore
           </Link>
         </div>
@@ -38,7 +44,8 @@ function Navbar() {
               to="add-new-product"
               class="my-2 text-gray-700 transition-colors duration-300 transform dark:text-gray-200 hover:text-blue-500 dark:hover:text-blue-400 md:mx-4 md:my-0"
             >
-              Add New Item
+              Sell Your Product
+              
             </Link>
           </div>
 

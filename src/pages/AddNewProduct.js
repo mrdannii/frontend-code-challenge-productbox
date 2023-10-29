@@ -109,8 +109,10 @@ function AddNewProduct() {
                 disabled={isSubmitting}
                 className=" px-0 py-2 leading-5 w-80 text-white transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:bg-gray-600"
               >
-                Add New
+              
+                Add New 
               </button>
+              
             </div>
           </form>
         )}
