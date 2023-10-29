@@ -19,7 +19,7 @@ I created using React and Tailwind CSS. It is a simple e-commerce website that a
 - Cart: This is the page that shows the items in the user’s cart. Users can remove items from their cart. They can also proceed to checkout.
 - Error: This is the page that shows an error message when something goes wrong, such as a network failure or an invalid URL.
 - Add New Product: This is the page that allows users to sell their own products. Users have to fill out a form with product details and upload an image. The form uses Formik and Yup for validation and error handling.
-- Product Details: This is the page that shows the details of a specific product, such as description, reviews, and seller information. Users can also add the product to their cart or write a review.
+- Product Details: This is the page that shows the details of a specific product, such as description, Price.
 
 ## Demo
 [Demo Video](https://github.com/mrdannii/frontend-code-challenge-productbox/assets/129685268/d59657cb-c5de-4e8c-b439-52c254e71d19)
