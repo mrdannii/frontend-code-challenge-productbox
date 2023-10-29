@@ -27,8 +27,8 @@ function ProductDetails() {
   return (
     <div>
       <div className="">
-        <div className="p-6">
-          <div className="mx-auto flex items-center justify-center ">
+        <div className="p-2 grid h-screen">
+          <div className=" mx-auto flex items-center justify-center ">
             <div className="  self-center">
             <span className="text-blue-500 text-2xl font-semibold mb-3">
          Product Detail
@@ -37,14 +37,14 @@ function ProductDetails() {
                 <img
                   src={product?.img || product?.name}
                   alt="product"
-                  className="h-100 w-100 object-cover"
+                  className="object-cover w-full h-48 "
                 />
 
                 <h1 className="text-2xl mt-5 font-bold tracking-tight text-blue-400 sm:text-3xl">
                   {product?.name || ""}
                 </h1>
 
-                <div className="mt-4 lg:row-span-3 lg:mt-0">
+                <div className="mt-2 lg:row-span-3 lg:mt-0">
                   <p className="text-3xl tracking-tight text-gray-600">
                     Rs.{product?.price || ""}/-
                   </p>
@@ -56,6 +56,16 @@ function ProductDetails() {
                   >
                     Add to Cart
                   </button>
+                  <div className="mt-2  text-center text-sm text-gray-500">
+              <p>or</p>
+              <button
+                type="button"
+                className="font-medium text-blue-600 hover:text-blue-500"
+                onClick={() => navigate("/all-products")}
+              >
+                Back to Products
+              </button>
+            </div>
                  
                 </div>
               </div>

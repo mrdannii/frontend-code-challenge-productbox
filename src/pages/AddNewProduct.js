@@ -33,11 +33,12 @@ function AddNewProduct() {
         img: product.imageURL,
       })
       .then((response) => {
-        navigate("/")
+        navigate("/all-products")
       });
   };
   return (
-    <section className="max-w-2xl p-6 mx-auto my-12 bg-white rounded-md shadow-lg  shadow-indigo-400">
+    <div className="p-2 h-screen relative items-center justify-center  place-content-center">
+    <section className=" max-w-2xl p-6 mx-auto my-12 bg-white rounded-md shadow-lg  shadow-indigo-400">
       <h2 className="text-xl font-bold text-gray-700 capitalize ">
         List your Items for Sale
       </h2>
@@ -115,6 +116,7 @@ function AddNewProduct() {
         )}
       </Formik>
     </section>
+    </div>
   );
 }
 
