@@ -32,23 +32,7 @@ I created using React and Tailwind CSS. It is a simple e-commerce website that a
 [Demo Video](https://github.com/mrdannii/frontend-code-challenge-productbox/assets/129685268/d59657cb-c5de-4e8c-b439-52c254e71d19)
 
 ## Getting Started
-Install the package dependencies by running the following command ```npm install ```
-```bash
-npm start
-npm install json-server
-json-server --watch init_data.json --port 3001
-```
-Once the server is running, you can access the start page by opening your browser to ```http://localhost:3000```     
-The Items JSON REST API is exposed at ```http://localhost:3001/items```     
-### API Endpoints  
-```bash
-/items/
-- HTTP GET: returns array of all items
-- HTTP POST: creates a new item, returns the created item data
-/items/:id
-- HTTP GET: returns the item with given id (numeric, auto-incrementing). HTTP 404 if item not found
-- HTTP DELETE: removes the items with given id, returns nothing (HTTP 204)
-```
+
 
 ### Prerequisites
  React-app  ```-For frontend```   
