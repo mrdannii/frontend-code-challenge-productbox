@@ -22,5 +22,5 @@ This project is the result of successfully completing the ProductBox Frontend Ch
 #### React-app  //for frontend  
 #### React-router-dom //for Routing
 #### JSON-server //For JsonDB and api 
-#### Fork and Yup //For Form Validation
+#### Formilk and Yup //For React Form Validation
 
