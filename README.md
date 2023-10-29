@@ -31,8 +31,10 @@ npm start
 npm install json-server
 json-server --watch init_data.json --port 3001
 ```
-Once the server is running, you can access the start page by opening your browser to ```http://localhost:3000```   
-The Items JSON REST API is exposed at ```http://localhost:3001/items```     
+* Once the server is running, you can access the start page by opening your browser to ```http://localhost:3000```   
+* On server start, item data is read into memory from ```init_data.json```.
+* The Items JSON REST API is exposed at ```http://localhost:3001/items```     
+
 ### API Endpoints  
 ```bash
 /items/
