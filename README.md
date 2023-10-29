@@ -13,7 +13,7 @@ I created using React and Tailwind CSS. It is a simple e-commerce website that a
 - Users can view the details of each product.
 - The website has a responsive design that adapts to different screen sizes and devices.
 
-### Features
+### Pages
 - Home: This is the landing page that shows a welcome message.
 - All Products: This is the page that shows all the products available for sale.
 - Cart: This is the page that shows the items in the user’s cart. Users can remove items from their cart. They can also proceed to checkout.
