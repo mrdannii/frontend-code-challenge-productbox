@@ -33,7 +33,7 @@ function AddNewProduct() {
         img: product.imageURL,
       })
       .then((response) => {
-        navigate("/products")
+        navigate("/")
       });
   };
   return (
@@ -78,6 +78,7 @@ function AddNewProduct() {
               <input
                 placeholder="Price"
                 name="price"
+                type="price"
                 onChange={handleChange}
                 onBlur={handleBlur}
                 value={values.price}
