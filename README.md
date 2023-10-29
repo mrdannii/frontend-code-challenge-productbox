@@ -1,11 +1,4 @@
-# ProductBox Frontend Challenge
-
-
-## Table of Contents
-- [Description](#description)
-- [Demo](#demo)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
+# ProductBox Frontend Code Challenge
 
 ## Description
 ### RandoStore
@@ -13,17 +6,17 @@ I created using React and Tailwind CSS. It is a simple e-commerce website that a
 
 ### Features
 
-- Users can view a list of all products or filter them by category, price, or rating.
-- Users can add products to their cart and checkout with a mock payment system.
+- Users can view a list of all listed products.
+- Users can add products to their cart and checkout.
 - Users can also sell their own products by filling out a form with product details and uploading an image.
 - The form uses Formik and Yup for validation and error handling.
-- Users can view the details of each product, such as description, reviews, and seller information.
+- Users can view the details of each product.
 - The website has a responsive design that adapts to different screen sizes and devices.
 
 ### Features
-- Home: This is the landing page that shows a welcome message and some featured products.
-- All Products: This is the page that shows all the products available for sale. Users can filter and sort the products by various criteria.
-- Cart: This is the page that shows the items in the user’s cart. Users can edit the quantity or remove items from their cart. They can also proceed to checkout and complete their order.
+- Home: This is the landing page that shows a welcome message.
+- All Products: This is the page that shows all the products available for sale.
+- Cart: This is the page that shows the items in the user’s cart. Users can remove items from their cart. They can also proceed to checkout.
 - Error: This is the page that shows an error message when something goes wrong, such as a network failure or an invalid URL.
 - Add New Product: This is the page that allows users to sell their own products. Users have to fill out a form with product details and upload an image. The form uses Formik and Yup for validation and error handling.
 - Product Details: This is the page that shows the details of a specific product, such as description, reviews, and seller information. Users can also add the product to their cart or write a review.
