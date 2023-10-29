@@ -37,14 +37,11 @@ function AddNewProduct() {
       });
   };
   return (
-    <section className="max-w-2xl p-6 mx-auto my-12 bg-white rounded-md shadow-md ">
+    <section className="max-w-2xl p-6 mx-auto my-12 bg-white rounded-md shadow-lg  shadow-indigo-400">
       <h2 className="text-xl font-bold text-gray-700 capitalize ">
-        Put Items up for Sale
+        List your Items for Sale
       </h2>
 
-      <h2 className="text-md mt-10 font-semibold text-gray-700 capitalize ">
-        Please enter detail
-      </h2>
       <Formik
         initialValues={{ name: "", price: "", imageURL: "" }}
         validationSchema={productSchema}
@@ -62,10 +59,8 @@ function AddNewProduct() {
           isSubmitting,
         }) => (
           <form onSubmit={handleSubmit}>
-            <div className=" mt-4 ">
-              <label className="text-gray-700 " for="name">
-                Name
-              </label>
+            <div className=" mt-7 ">
+             
               <input
                 placeholder="Name"
                 name="name"
@@ -79,9 +74,7 @@ function AddNewProduct() {
               ) : null}
             </div>
             <div className=" mt-4 ">
-              <label className="text-gray-700 " for="price">
-                Price
-              </label>
+          
               <input
                 placeholder="Price"
                 name="price"
@@ -95,9 +88,7 @@ function AddNewProduct() {
               ) : null}
             </div>
             <div className=" mt-4 ">
-              <label className="text-gray-700 " for="imageURL">
-                Image URL
-              </label>
+        
               <input
                 placeholder="Image URL"
                 name="imageURL"
@@ -114,9 +105,9 @@ function AddNewProduct() {
               <button
                 type="submit"
                 disabled={isSubmitting}
-                className="px-8 py-2.5 leading-5 w-full text-white transition-colors duration-300 transform bg-indigo-600 rounded-md hover:bg-indigo-700 focus:outline-none focus:bg-gray-600"
+                className=" px-0 py-2 leading-5 w-80 text-white transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-700 focus:outline-none focus:bg-gray-600"
               >
-                Add
+                Add New
               </button>
             </div>
           </form>

@@ -3,6 +3,7 @@ import AllProducts from './pages/AllProducts';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import AddNewProduct from './pages/AddNewProduct';
+import ProductDetail from './pages/ProductDetail';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route index element={<AllProducts />} />
         <Route path="add-new-product" element={<AddNewProduct />} />
+        <Route path="/:productId" element={<ProductDetail />} />
 
       </Routes>
     </Router>

@@ -25,7 +25,7 @@ function AllProducts() {
         {products.map((product, index) => (
           <div
             key={index}
-            className="max-w-xs overflow-hidden bg-pink-50 shadow-xl border border-gray-300  duration-300 hover:scale-105 hover:shadow-lg"
+            className="max-w-xs overflow-hidden bg-white shadow-lg shadow-violet-200 border border-gray-300  duration-300 hover:scale-105 hover:shadow-xl hover:shadow-violet-300"
           >
             <img
               className="object-cover w-full h-48 "
